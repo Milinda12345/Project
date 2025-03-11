@@ -1,0 +1,7 @@
+spring:
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+
+  data:
+    mongodb:
+      url: mongodb://localh ost:27017/new
